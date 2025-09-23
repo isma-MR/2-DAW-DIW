@@ -1,0 +1,33 @@
+
+
+<style>
+  
+</style>
+
+<main class="main">
+    <button matButton="filled">Hola</button>
+    <button matButton="text">Hola</button>
+    <mat-divider></mat-divider>
+    <button matButton="outlined">Hola</button>
+    <button matButton="elevated">Hola</button>
+    <mat-divider></mat-divider>
+    <button matButton="tonal">Hola</button>
+    <mat-divider></mat-divider>
+    
+  <boton [backgroundColor]="'#FF0000'" [color]="'#00FF00'">Hola mundo</boton>
+    <mat-divider></mat-divider>
+  <boton [backgroundColor]="'#FF0000'" [color]="'#00FF00'">Hola mundo</boton>
+
+    <mat-divider></mat-divider>
+  <boton [backgroundColor]="''" [color]="''">Hola mundo</boton>
+
+    <mat-divider></mat-divider>
+
+    <progreso  [title]="titleProgreso" [value]="porcentaje" />
+    <button (click)="handleOnClick()">Incrementar</button>
+    <panel></panel>
+    
+
+</main>
+
+<router-outlet />

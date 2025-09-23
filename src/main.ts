@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { App } from './app/app';
+import { minecraftMainConfig } from './minecraft/components/pages/minecraft-main/minecraft-main.config';
+import { MinecraftMain } from './minecraft/components/pages/minecraft-main/minecraft-main';
 
-bootstrapApplication(App, appConfig)
+bootstrapApplication(MinecraftMain, minecraftMainConfig)
   .catch((err) => console.error(err));
