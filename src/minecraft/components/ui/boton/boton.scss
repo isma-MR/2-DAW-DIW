@@ -16,13 +16,13 @@
 }
 
 .funcion--principal {
-  --color-boton: var(--color-principal);
+  --color-boton: var(--mlt-sys-color-principal-5);
 }
 .funcion--alternativa {
-  --color-boton: var(--color-alternativo);
+  --color-boton: var( --mlt-sys-color-alternativo-5);
 }
 .funcion--peligrosa {
-  --color-boton: var(--color-peligro);
+  --color-boton: var(--mlt-sys-color-rojo-5);
 }
 
 .importancia--primaria {

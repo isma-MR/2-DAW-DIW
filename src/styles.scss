@@ -11,6 +11,136 @@
   --color-alternativo: #ed8936;
   --color-peligro: #c53030;
   
+  --mlt-sys-color-principal-1: #011019;
+  --mlt-sys-color-principal-2: #052F4D;
+  --mlt-sys-color-principal-3: #0B4D83;
+  --mlt-sys-color-principal-4: #1363B4;
+  --mlt-sys-color-principal-5: #1979E6;
+  --mlt-sys-color-principal-6: #4B8EEC;
+  --mlt-sys-color-principal-7: #80ADF4;
+  --mlt-sys-color-principal-8: #B2CAFA;
+  --mlt-sys-color-principal-9: #E6EDFE;
+ 
+ 
+ 
+  --mlt-sys-color-alternativo-1: #190801;
+  --mlt-sys-color-alternativo-2: #4D1D05;
+  --mlt-sys-color-alternativo-3: #83370B;
+  --mlt-sys-color-alternativo-4: #B45613;
+  --mlt-sys-color-alternativo-5: #E67519;
+  --mlt-sys-color-alternativo-6: #EC9C4B;
+  --mlt-sys-color-alternativo-7: #F4BE80;
+  --mlt-sys-color-alternativo-8: #FADCB2;
+  --mlt-sys-color-alternativo-9: #FEF5E6;
+ 
+ 
+ 
+  --mlt-sys-color-rojo-1: #190501;
+  --mlt-sys-color-rojo-2: #4D0D05;
+  --mlt-sys-color-rojo-3: #83150B;
+  --mlt-sys-color-rojo-4: #B41813;
+  --mlt-sys-color-rojo-5: #E61919;
+  --mlt-sys-color-rojo-6: #EC534B;
+  --mlt-sys-color-rojo-7: #F48A80;
+  --mlt-sys-color-rojo-8: #FABCB2;
+  --mlt-sys-color-rojo-9: #FEEAE6;
+ 
+ 
+ 
+  --mlt-sys-color-gris-1: #1D2830;
+  --mlt-sys-color-gris-2: #323E49;
+  --mlt-sys-color-gris-3: #485461;
+  --mlt-sys-color-gris-4: #5C6775;
+  --mlt-sys-color-gris-5: #717D8E;
+  --mlt-sys-color-gris-6: #8A93A3;
+  --mlt-sys-color-gris-7: #A1A9BA;
+  --mlt-sys-color-gris-8: #B6BDCD;
+  --mlt-sys-color-gris-9: #CFD4E2;
+ 
+ 
+ 
+  --mlt-sys-color-blanco-1: #EBEBEB;
+  --mlt-sys-color-blanco-2: #EDEDED;
+  --mlt-sys-color-blanco-3: #F0F0F0;
+  --mlt-sys-color-blanco-4: #F2F2F2;
+  --mlt-sys-color-blanco-5: #F5F5F5;
+  --mlt-sys-color-blanco-6: #F7F7F7;
+  --mlt-sys-color-blanco-7: #FAFAFA;
+  --mlt-sys-color-blanco-8: #FCFCFC;
+  --mlt-sys-color-blanco-9: #FFFFFF;
+ 
+ 
+ 
+  --mlt-sys-color-amarillo-1: #6D5303;
+  --mlt-sys-color-amarillo-2: #9A7809;
+  --mlt-sys-color-amarillo-3: #C69C10;
+  --mlt-sys-color-amarillo-4: #E9BC1C;
+  --mlt-sys-color-amarillo-5: #ECC94B;
+  --mlt-sys-color-amarillo-6: #F2D978;
+  --mlt-sys-color-amarillo-7: #F7E7A6;
+  --mlt-sys-color-amarillo-8: #FCF4CF;
+  --mlt-sys-color-amarillo-9: #FFFFFF;
+ 
+ 
+ 
+  --mlt-sys-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mlt-sys-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --mlt-sys-font-serif: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", Times, serif;
+  --mlt-sys-font-default: var(--mlt-sys-font-sans-serif);
+ 
+  --mlt-sys-font-size-1: 10px;
+  --mlt-sys-font-size-2: 12px;
+  --mlt-sys-font-size-3: 14px;
+  --mlt-sys-font-size-4: 16px;
+  --mlt-sys-font-size-5: 18px;
+  --mlt-sys-font-size-6: 20px;
+  --mlt-sys-font-size-7: 22px;
+  --mlt-sys-font-size-8: 24px;
+  --mlt-sys-font-size-9: 26px;
+  --mlt-sys-font-size-10: 28px;
+  --mlt-sys-font-size-11: 30px;
+ 
+  --mlt-sys-margin-0: 0px;
+  --mlt-sys-margin-1: 4px;
+  --mlt-sys-margin-2: 8px;
+  --mlt-sys-margin-3: 12px;
+  --mlt-sys-margin-4: 16px;
+  --mlt-sys-margin-5: 20px;
+  --mlt-sys-margin-6: 24px;
+  --mlt-sys-margin-7: 28px;
+  --mlt-sys-margin-8: 32px;
+  --mlt-sys-margin-9: 36px;
+  --mlt-sys-margin-10: 40px;
+ 
+  --mlt-sys-padding-0: 0px;
+  --mlt-sys-padding-1: 4px;
+  --mlt-sys-padding-2: 8px;
+  --mlt-sys-padding-3: 12px;
+  --mlt-sys-padding-4: 16px;
+  --mlt-sys-padding-5: 20px;
+  --mlt-sys-padding-6: 24px;
+  --mlt-sys-padding-7: 28px;
+  --mlt-sys-padding-8: 32px;
+  --mlt-sys-padding-9: 36px;
+  --mlt-sys-padding-10: 40px;
+ 
+  --mlt-sys-border-radius-1: 1px;
+  --mlt-sys-border-radius-2: 2px;
+  --mlt-sys-border-radius-3: 4px;
+  --mlt-sys-border-radius-4: 6px;
+ 
+  --mlt-sys-width-0: 0px;
+  --mlt-sys-width-1: 1px;
+  --mlt-sys-width-2: 4px;
+  --mlt-sys-width-3: 8px;
+  --mlt-sys-width-4: 12px;
+  --mlt-sys-width-5: 16px;
+  --mlt-sys-width-6: 20px;
+  --mlt-sys-width-7: 24px;
+  --mlt-sys-width-8: 28px;
+  --mlt-sys-width-9: 32px;
+  --mlt-sys-width-10: 36px;
+  --mlt-sys-width-11: 40px;
 }
 html {
   @include mat.theme((
