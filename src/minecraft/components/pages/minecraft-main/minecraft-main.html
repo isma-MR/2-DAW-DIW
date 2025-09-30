@@ -14,18 +14,17 @@
     <button matButton="tonal">Hola</button>
     <mat-divider></mat-divider>
     
-  <boton [backgroundColor]="'#FF0000'" [color]="'#00FF00'">Hola mundo</boton>
+  <boton [importanciaBoton]="'primaria'" [funcionBoton]="'principal'">Hola mundo</boton>
     <mat-divider></mat-divider>
-  <boton [backgroundColor]="'#FF0000'" [color]="'#00FF00'">Hola mundo</boton>
-
+  <boton [importanciaBoton]="'secundaria'" [funcionBoton]="'alternativa'">Hola mundo</boton>
     <mat-divider></mat-divider>
-  <boton [backgroundColor]="''" [color]="''">Hola mundo</boton>
+  <boton [importanciaBoton]="'terciaria'" [funcionBoton]="'peligrosa'">Hola mundo</boton>
 
     <mat-divider></mat-divider>
 
     <progreso  [title]="titleProgreso" [value]="porcentaje" />
     <button (click)="handleOnClick()">Incrementar</button>
-    <panel></panel>
+    <panel [importancia]="'primary'"></panel>
     
 
 </main>
