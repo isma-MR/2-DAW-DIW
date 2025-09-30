@@ -14,6 +14,17 @@
   text-decoration: none;
  
 }
+
+.funcion--principal {
+  --color-boton: var(--color-principal);
+}
+.funcion--alternativa {
+  --color-boton: var(--color-alternativo);
+}
+.funcion--peligrosa {
+  --color-boton: var(--color-peligro);
+}
+
 .importancia--primaria {
   border-color: var(--color-boton);
   background-color: var(--color-boton);

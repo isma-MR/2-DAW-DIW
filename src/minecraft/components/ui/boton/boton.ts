@@ -8,32 +8,8 @@ import {CommonModule} from '@angular/common';
   styleUrl: './boton.scss'
 })
 export class Boton  {
-  @Input() importanciaBoton:'primaria' | 'secundaria' | 'terciaria'='primaria';
-  @Input() funcionBoton:'principal' | 'alternativa' | 'peligrosa'='principal';
-  importanciaBotonClass():string{
-  switch (this.importanciaBoton) {
-    case 'primaria':
-      return "importancia--primaria";
-    case 'secundaria':
-      return 'importancia--secundaria';
-    case 'terciaria':
-      return "importancia--terciaria";
-    default:
-      throw Error('Importancia no válida' + this.funcionBoton);
-    }
-  }
-  botonStyle() {
-  switch (this.funcionBoton) {
-    case 'principal':
-      return {'--color-boton': 'var(--color-principal)'};
-    case 'alternativa':
-      return {'--color-boton': 'var(--color-alternativo)'};
-    case 'peligrosa':
-      return {'--color-boton': 'var(--color-peligro)'};
-    default:
-      return {};
-  }
-}
+  @Input() importanciaBoton:'primaria' | 'secundaria' | 'terciaria'='secundaria';
+  @Input() funcionBoton:'principal' | 'alternativa' | 'peligrosa'='alternativa';
 
   @Input() backgroundColor:string='0B0A0A';
   @Input() color:string='F5F7FF';
